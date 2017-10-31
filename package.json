@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fakerabbit/slackbot/issues"
   },
-  "homepage": "https://github.com/fakerabbit/slackbot#readme"
+  "homepage": "https://github.com/fakerabbit/slackbot#readme",
+  "dependencies": {
+    "@slack/client": "^3.14.1"
+  }
 }
