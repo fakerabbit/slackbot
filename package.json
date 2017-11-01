@@ -4,7 +4,8 @@
   "description": "A Slack Bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node chatbot.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "botkit": "^0.6.4",
     "dotenv": "^4.0.0",
     "express": "^4.16.2",
-    "google": "^2.1.0"
+    "google": "^2.1.0",
+    "uuid": "^3.1.0"
   }
 }
